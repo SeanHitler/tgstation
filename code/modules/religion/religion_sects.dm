@@ -343,7 +343,7 @@
 /datum/religion_sect/maintenance
 	name = "Maintenance God"
 	quote = "Your kingdom in the darkness."
-	desc = "Sacrifice the organic slurry created from rats dipped in welding fuel to gain favor. Exchange favor to adapt to the maintenance shafts."
+	desc = "Sacrifice the organic slurry created from mice dipped in welding fuel to gain favor. Exchange favor to adapt to the maintenance shafts."
 	tgui_icon = "eye"
 	altar_icon_state = "convertaltar-maint"
 	alignment = ALIGNMENT_EVIL //while maint is more neutral in my eyes, the flavor of it kinda pertains to rotting and becoming corrupted by the maints
