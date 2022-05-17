@@ -553,6 +553,8 @@
 /obj/item/organ/eyes/night_vision/maintenance_adapted/on_life(delta_time, times_fired)
 	var/turf/owner_turf = get_turf(owner)
 	var/lums = owner_turf.get_lumcount()
+	if(TRAIT_BLIND == TRUE)
+		to_chat(owner, span_danger("It seems that whatever's covering your eyes is working!"))//This means the blindfold you're wearing is working, and you're not getting burned, YAY!
 	if(lums > 0.5) //we allow a little more than usual so we can produce light from the adapted eyes
 		to_chat(owner, span_danger("Your eyes! They burn in the light!"))
 		applyOrganDamage(10) //blind quickly
